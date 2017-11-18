@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Y.A.Wang&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2017-11-11T10:42:20.649Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Preface</title>
+    <link href="http://yoursite.com/2017/11/11/Preface/"/>
+    <id>http://yoursite.com/2017/11/11/Preface/</id>
+    <published>2017-11-10T16:00:00.000Z</published>
+    <updated>2017-11-11T10:42:20.649Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Why-did-I-start-a-blog"><a href="#Why-did-I-start-a-blog" class="headerlink" title="Why did I start a blog"></a>Why did I start a blog</h2><hr><h3 id="这是一个信息爆炸的时代"><a href="#这是一个信息爆炸的时代" class="headerlink" title="这是一个信息爆炸的时代"></a>这是一个信息爆炸的时代</h3><hr><h3 id="而博客，则提供了一个很好的平台"><a href="#而博客，则提供了一个很好的平台" class="headerlink" title="而博客，则提供了一个很好的平台"></a>而博客，则提供了一个很好的平台</h3><ul><li>干净-个人搭建的网站，没有广告的骚扰</li><li>简洁-快捷有效展现个性</li><li>方便-即将开启评论功能，集成部分个人联系方式，方便互动</li></ul><hr><h3 id="最重要的，当然是交友啦！！！"><a href="#最重要的，当然是交友啦！！！" class="headerlink" title="最重要的，当然是交友啦！！！"></a>最重要的，当然是交友啦！！！</h3><ul><li>霍曼思(George Casper Homans)的社会交换理论(social exchange theory)认为，每个人都有与别人建立人际关系的需求；这种需求是与他人心理相容的基础。那么，只要能在观点上产生共鸣，或者有着相同的兴趣，就已经可以相聊甚欢了。</li><li>博客，提供了这样良好的机会——对某方面感兴趣？欢迎私戳！（Plus：联系方式就隐藏在页面的各个角落）</li><li>个人主页发布时间：2017.11.11(still single!)</li></ul><hr><p>致谢：非常感谢蔡浩老师的支持，祝早日康复！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Why-did-I-start-a-blog&quot;&gt;&lt;a href=&quot;#Why-did-I-start-a-blog&quot; class=&quot;headerlink&quot; title=&quot;Why did I start a blog&quot;&gt;&lt;/a&gt;Why did I start a bl
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
