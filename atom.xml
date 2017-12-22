@@ -6,10 +6,31 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-11-26T12:12:42.002Z</updated>
+  <updated>2017-12-13T02:36:04.733Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2017/12/22/vimpeizhi/"/>
+    <id>http://yoursite.com/2017/12/22/vimpeizhi/</id>
+    <published>2017-12-22T11:01:54.563Z</published>
+    <updated>2017-12-13T02:36:04.733Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="vim-常用命令："><a href="#vim-常用命令：" class="headerlink" title="vim 常用命令："></a>vim 常用命令：</h1><h2 id="编辑文件系列："><a href="#编辑文件系列：" class="headerlink" title="编辑文件系列："></a>编辑文件系列：</h2><blockquote><p>:new 文件名.格式后缀            —新建文件<br>:e 文件名.格式后缀              —打开文件<br>:w 文件名.格式后缀              —保存文件（在要保存文件窗口下直接:w 也可以）<br>:wq                            —保存并退出<br>:q                              —不保存强行退出<br>:x                              —退出，若文件更改则保存</p></blockquote><h2 id="多窗口使用技巧："><a href="#多窗口使用技巧：" class="headerlink" title="多窗口使用技巧："></a>多窗口使用技巧：</h2><ol><li>打开多个窗口：</li></ol><ul><li>横向切割窗口：<blockquote><p>:new                                  —窗口名（保存后即为文件名，因此按照文件名来命名窗口）<br>:split                                —窗口名 （或 :sp 窗口名 ）</p></blockquote></li><li>纵向切割窗口：<blockquote><p>:vsplit                               —窗口名  （或 :vsp 窗口名 ）</p></blockquote></li></ul><ol><li>关闭多窗口：<blockquote><p>:w    :q    :wq                       —等和单窗口用法一样<br>:tabc                            —关闭当前窗口<br>:tabo                            —关闭所有窗口</p></blockquote></li><li>窗口切换：<blockquote><p>:ctrl+w+j/k                      —通过j/k可以上下切换（或j/k换成上下左右键）<br>:ctrl+w+w                        —依次切换窗口</p></blockquote></li><li>窗口大小调整：</li></ol><ul><li>纵向调整：<blockquote><p>:ctrl+w+/-                       —纵向扩大/缩小（行数增加/减少)<br>:res(ize) num                         —例如：:res 5,显示行数调整为5行<br>:res(ize)+/-num                  —把当前窗口高度增加/减少num行</p></blockquote></li><li>横向调整：<blockquote><p>:vertical res(ize) num           —指定当前窗口为num列<br>:vertical res(ize)+/-num              —把当前窗口高度增/减num列</p></blockquote></li></ul><ol><li>给窗口重命名：<blockquote><p>:f file</p></blockquote></li><li>vi打开多文件：<br>vi a b c<blockquote><p>:n                               —跳至下一个文件，也可以直接指定要跳的文件，如 :n c ,可以直接跳到c文件<br>:e#                              —回到刚才编辑的文件</p></blockquote></li><li>文件浏览：<blockquote><p>:Ex                              —开启目录浏览器，浏览当前目录下所有文件，并可以选择<br>:Sex                             —水平分割当前窗口，并在一个窗口中开启目录浏览器<br>:ls                              —显示当前buffer情况</p></blockquote></li><li>vi与shell切换：<blockquote><p>:shell                           —可以在不关闭vi的情况下切换到shell命令行<br>:exit                                 —从shell回到vi6. vi打开多文件：<br>vi a b c<br>:n                               —跳至下一个文件，也可以直接指定要跳的文件，如 :n c ,可以直接跳到c文件<br>:e#                              —回到刚才编辑的文件</p></blockquote></li><li>文件浏览：<blockquote><p>:Ex                              —开启目录浏览器，浏览当前目录下所有文件，并可以选择<br>:Sex                             —水平分割当前窗口，并在一个窗口中开启目录浏览器<br>:ls                              —显示当前buffer情况</p></blockquote></li><li>vi与shell切换：<blockquote><p>:shell                           —可以在不关闭vi的情况下切换到shell命令行<br>:exit                            —从shell回到vi6. vi打开多文件：<br>vi a b c<br>:n                               —跳至下一个文件，也可以直接指定要跳的文件，如 :n c ,可以直接跳到c文件<br>:e#                              —回到刚才编辑的文件</p></blockquote></li><li>文件浏览：<blockquote><p>:Ex                              —开启目录浏览器，浏览当前目录下所有文件，并可以选择<br>:Sex                             —水平分割当前窗口，并在一个窗口中开启目录浏览器<br>:ls                              —显示当前buffer情况</p></blockquote></li><li>vi与shell切换：<blockquote><p>:shell                           —可以在不关闭vi的情况下切换到shell命令行<br>:exit                            —从shell回到vi6. vi打开多文件：<br>vi a b c<br>:n                               —跳至下一个文件，也可以直接指定要跳的文件，如 :n c ,可以直接跳到c文件<br>:e#                              —回到刚才编辑的文件</p></blockquote></li><li>文件浏览：<blockquote><p>:Ex                              —开启目录浏览器，浏览当前目录下所有文件，并可以选择<br>:Sex                             —水平分割当前窗口，并在一个窗口中开启目录浏览器<br>:ls                              —显示当前buffer情况</p></blockquote></li><li>vi与shell切换：<blockquote><p>:shell                           —可以在不关闭vi的情况下切换到shell命令行<br>:exit                            —从shell回到vi6. vi打开多文件：<br>vi a b c<br>:n                               —跳至下一个文件，也可以直接指定要跳的文件，如 :n c ,可以直接跳到c文件<br>:e#                              —回到刚才编辑的文件</p></blockquote></li><li>文件浏览：<blockquote><p>:Ex                              —开启目录浏览器，浏览当前目录下所有文件，并可以选择<br>:Sex                             —水平分割当前窗口，并在一个窗口中开启目录浏览器<br>:ls                              —显示当前buffer情况</p></blockquote></li><li>vi与shell切换：<blockquote><p>:shell                           —可以在不关闭vi的情况下切换到shell命令行<br>:exit                            —从shell回到vi6. vi打开多文件：<br>vi a b c<br>:n                               —跳至下一个文件，也可以直接指定要跳的文件，如 :n c ,可以直接跳到c文件<br>:e#                              —回到刚才编辑的文件</p></blockquote></li><li>文件浏览：<blockquote><p>:Ex                              —开启目录浏览器，浏览当前目录下所有文件，并可以选择<br>:Sex                            —水平分割当前窗口，并在一个窗口中开启目录浏览器<br>:ls                              —显示当前buffer情况</p></blockquote></li><li>vi与shell切换：<blockquote><p>:shell                           —可以在不关闭vi的情况下切换到shell命令行<br>:exit                            —从shell回到vi</p></blockquote></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;vim-常用命令：&quot;&gt;&lt;a href=&quot;#vim-常用命令：&quot; class=&quot;headerlink&quot; title=&quot;vim 常用命令：&quot;&gt;&lt;/a&gt;vim 常用命令：&lt;/h1&gt;&lt;h2 id=&quot;编辑文件系列：&quot;&gt;&lt;a href=&quot;#编辑文件系列：&quot; class=&quot;he
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
